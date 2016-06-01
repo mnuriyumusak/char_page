@@ -1,0 +1,51 @@
+.myButton {
+				background-color:#90c3eb;
+				-moz-border-radius:28px;
+				-webkit-border-radius:28px;
+				border-radius:28px;
+				border:1px solid #219cde;
+				display:inline-block;
+				cursor:pointer;
+				color:#ffffff;
+				font-family:arial;
+				font-size:17px;
+				padding:2px 35px;
+				text-decoration:none;
+        position:relative;
+        left:1680px;
+        bottom: 550px;
+        width:120px;
+        text-align:center;
+
+			}
+
+			.myButton:hover {
+				background-color:#b6d3de;
+			}
+
+      a {	color: #ffffff;}
+      				#Shameless_Self_Promo {
+      				position: absolute;
+      				top: 0px; width: 100%;
+      				color: #FFFFFF;
+      				padding: 5px;
+      				font-family:verdana;
+      				font-size:11px;
+      				text-align:center;
+      				z-index:1000;
+      			}
+
+body{
+
+}
+
+#table{
+  background-color: #90c3eb;
+  width:193px;
+  height:300px;
+  position:relative;
+  left:1680px;
+  bottom: 562px;
+  border-radius:8px;
+	display: none;
+}

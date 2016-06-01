@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <script src="Chart.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</header>
+
+<body>
+    <canvas id="myChart" width="1600" height="600" style="max-width:1600px;"></canvas>
+
+    <div id="menu" >
+		    <a href="#" class = "myButton" onclick="myFunction()">List</a>
+	</div>
+
+  <div id ="table">
+    <ul>
+      <li><input type="checkbox" id="c0"  onchange="checkBoxControl()"> <label for="c0">soil_mois1</label></li>
+      <li><input type="checkbox" id="c1"  onchange="checkBoxControl()"> <label for="c1">soil_mois2</label></li>
+      <li><input type="checkbox" id="c2"  onchange="checkBoxControl()"> <label for="c2">bat_vol</label></li>
+      <li><input type="checkbox" id="c3"  onchange="checkBoxControl()"> <label for="c3">air_pre</label></li>
+      <li><input type="checkbox" id="c4"  onchange="checkBoxControl()"> <label for="c4">ec1</label></li>
+      <li><input type="checkbox" id="c5"  onchange="checkBoxControl()"> <label for="c5">ec2</label></li>
+      <li><input type="checkbox" id="c6"  onchange="checkBoxControl()"> <label for="c6">soil_temp1</label></li>
+      <li><input type="checkbox" id="c7"  onchange="checkBoxControl()"> <label for="c7">soil_temp2</label></li>
+      <li><input type="checkbox" id="c8"  onchange="checkBoxControl()"> <label for="c8">air_hum</label></li>
+    </ul>
+  </div>
+
+</body>
+
+<script>
+    $(document).ready(function() {
+        App();
+    });
+</script>
+
+</html>
